@@ -24,7 +24,7 @@ public class Auto extends Thread {
             //Auto soll ständig ein und aus fahren!
 
             //Auto soll aber randomisierte Zeit warten, vor der nächsten Aktion.
-            int fahrzeit = ZufallsZahl.nextInt(10);
+            int fahrzeit = ZufallsZahl.nextInt(5);
 
             //Thread soll <<fahrzeit>> lang schlafen => Falls interrupted während dem Schlaf, wird eine Exception gecatched.
             try {
@@ -37,7 +37,7 @@ public class Auto extends Thread {
             this.parkhaus.einfahren();
 
             // Erstellung der Parkzeit, wenn eingeparkt wurde (try/catch)
-            int parkzeit = ZufallsZahl.nextInt(8);
+            int parkzeit = ZufallsZahl.nextInt(2);
             try {
                 Thread.sleep(parkzeit*1000);
             } catch (InterruptedException e) {
