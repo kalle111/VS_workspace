@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba93cc27-2cb0-4509-830b-389922f2eaa5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/ClientClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/MessageClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/UserClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/marcorel/ClientFuerAufgabe4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/3_Simplesockets/de/marcorel/ClientKlasse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3_Simplesockets/de/marcorel/ClientKlasse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/marcorel/ClientKlasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/marcorel/ClientKlasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_SocketsUndThreads/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_SocketsUndThreads/out/production/4_SocketsUndThreads/de/marcorel/ServerSide.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/out/production/4_SocketsUndThreads/de/marcorel/ServerSide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/ServerSide.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/ServerSide.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/marcorel/ClientKlasse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="747">
+              <caret line="44" selection-start-line="6" selection-end-line="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/de/marcorel/ClientFuerAufgabe4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,6 +62,7 @@
         <option value="$PROJECT_DIR$/src/de/marcorel/Main.java" />
         <option value="$PROJECT_DIR$/src/de/marcorel/ServerKlasse.java" />
         <option value="$PROJECT_DIR$/src/de/marcorel/ClientKlasse.java" />
+        <option value="$PROJECT_DIR$/src/de/marcorel/ClientFuerAufgabe4.java" />
       </list>
     </option>
   </component>
@@ -77,7 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -101,6 +111,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,7 +133,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientKlasse">
+  <component name="RunManager" selected="Application.ClientFuerAufgabe4">
+    <configuration name="ClientFuerAufgabe4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.marcorel.ClientFuerAufgabe4" />
+      <module name="3_Simplesockets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.marcorel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientKlasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.marcorel.ClientKlasse" />
       <module name="3_Simplesockets" />
@@ -147,6 +171,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientFuerAufgabe4" />
         <item itemvalue="Application.ClientKlasse" />
         <item itemvalue="Application.Main" />
       </list>
@@ -165,17 +190,17 @@
       <workItem from="1559030572118" duration="2761000" />
       <workItem from="1559041557270" duration="6000" />
       <workItem from="1559056689269" duration="1057000" />
+      <workItem from="1559058149692" duration="414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3824000" />
+    <option name="totallyTimeSpent" value="4238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="3" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -185,7 +210,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -224,8 +249,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/marcorel/ClientKlasse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="747">
+          <caret line="44" selection-start-line="6" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/marcorel/ClientFuerAufgabe4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

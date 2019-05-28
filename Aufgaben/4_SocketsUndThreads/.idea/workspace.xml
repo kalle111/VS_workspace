@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8efa7c7-7966-4f9b-81a6-5707478409f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de/marcorel/ClientClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/marcorel/MessageClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/marcorel/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/marcorel/UserClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3_Simplesockets/src/de/marcorel/ClientFuerAufgabe4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../3_Simplesockets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3_Simplesockets/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_Simplesockets/out/production/3_Simplesockets/de/marcorel/ClientKlasse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3_Simplesockets/out/production/3_Simplesockets/de/marcorel/ClientKlasse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_Simplesockets/src/de/marcorel/ClientKlasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3_Simplesockets/src/de/marcorel/ClientKlasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/4_SocketsUndThreads/de/marcorel/ServerSide.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/4_SocketsUndThreads/de/marcorel/ServerSide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/marcorel/ServerSide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/marcorel/ServerSide.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/de/marcorel/ServerSide.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="24" column="71" lean-forward="true" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+            <state relative-caret-position="340">
+              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,15 +95,6 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -146,6 +135,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -188,12 +178,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559055240046</updated>
-      <workItem from="1559055241289" duration="2506000" />
+      <workItem from="1559055241289" duration="3463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2506000" />
+    <option name="totallyTimeSpent" value="3463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -215,7 +205,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -268,8 +258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/marcorel/ServerSide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="24" column="71" lean-forward="true" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+        <state relative-caret-position="340">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

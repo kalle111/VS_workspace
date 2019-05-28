@@ -13,7 +13,7 @@ public class ServerSide {
         runServer();
     }
 
-    public static String[] runServer() {
+    public static void runServer() {
         System.out.println("Server-Main will be started");
 
         try (ServerSocket servSo = new ServerSocket(port)){
@@ -34,6 +34,17 @@ public class ServerSide {
                 pw.println("#Ende#");
                 pw.flush();
                 //request.close();
+
+                String requestString = "";
+
+                requestString = br.readLine();
+
+                if(requestString.isEmpty()) {
+                    System.out.println("String empty!");
+                }else {
+                    System.out.println(requestString);
+                }
+                request.close();
             }
 
 
