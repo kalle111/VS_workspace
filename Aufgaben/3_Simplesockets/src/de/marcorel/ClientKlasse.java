@@ -5,8 +5,8 @@ import java.net.Socket;
 
 public class ClientKlasse {
 
-    private static final String domain = "localhost";
-    private static final int port = 3033;
+    private static final String domain = "192.168.178.38";
+    private static final int port = 8081;
 
     public static void main(String[] args) {
             try {

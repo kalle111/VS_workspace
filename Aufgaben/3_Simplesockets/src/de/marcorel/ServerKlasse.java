@@ -7,14 +7,15 @@ import java.net.Socket;
 public class ServerKlasse {
     //Serverklasse
 
-    private final int port = 3033;
-    private final String domain = "localhost";
+    private static final int port = 8081;
+    private static final String domain = "192.168.178.38";
 
     public static void main(String[] args) {
-        try (ServerSocket serverSocket	=	new ServerSocket(3033))	{
+        try (ServerSocket serverSocket	=	new ServerSocket(port))	{
             while(true) {
                 //blockiert bei .accept() bis ein Client verbindet
                 try {
+                    System.out.println("Server gestartet...");
                     Socket s = serverSocket.accept();
 
                     InputStream in = s.getInputStream();
@@ -28,6 +29,8 @@ public class ServerKlasse {
 
                     String antwort = br.readLine();
                     System.out.println("Antwort der Gegenseite: " + antwort);
+
+                    s.close();
                 } catch (IOException e1) {
                     e1.printStackTrace();
                 }
