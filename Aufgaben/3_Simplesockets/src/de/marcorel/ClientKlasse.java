@@ -11,18 +11,33 @@ public class ClientKlasse {
     public static void main(String[] args) {
             try {
                 Socket s = new Socket(domain,port);
-
+                System.out.println("Connection found!\n");
                 InputStream in = s.getInputStream();
                 BufferedReader br = new BufferedReader(new InputStreamReader(in));
 
                 OutputStream out = s.getOutputStream();
                 PrintWriter pw = new PrintWriter(out);
 
-                String incomingMsg = br.readLine();
+                boolean msgBool = true;
+                String inbound = "";
+                //inbound = br.readLine();
+                //System.out.println("Message: " + inbound);
+                while(msgBool) {
+                    String temp = br.readLine();
 
-                pw.println("Nachricht empfangen: " + incomingMsg);
-                pw.flush();
+                    if(temp.contains("#Ende#")) {
+                        msgBool = false;
+                    } else {
+                        inbound += temp + "\n";
+                    }
+                    //System.out.println("loopend");
+                }
+                System.out.println(inbound);
+
+                //pw.println("Nachricht empfangen: " + incomingMsg);
+                //pw.flush();
             } catch (Exception e) {
+                System.out.println("exception e");
                 e.printStackTrace();
             }
     }

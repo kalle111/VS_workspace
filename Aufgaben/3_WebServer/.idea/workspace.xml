@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba93cc27-2cb0-4509-830b-389922f2eaa5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/ClientClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/MessageClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/UserClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/3_Simplesockets/de/marcorel/ClientKlasse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3_Simplesockets/de/marcorel/ClientKlasse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/marcorel/ClientKlasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/marcorel/ClientKlasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_Simplesockets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3_Simplesockets/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,14 +16,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/de/marcorel/ClientKlasse.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/marcorel/WebServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="323">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/de/marcorel/WebRunnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13175">
+              <caret line="834" column="19" selection-start-line="834" selection-start-column="19" selection-end-line="834" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -50,8 +65,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/de/marcorel/Main.java" />
-        <option value="$PROJECT_DIR$/src/de/marcorel/ServerKlasse.java" />
         <option value="$PROJECT_DIR$/src/de/marcorel/ClientKlasse.java" />
+        <option value="$PROJECT_DIR$/src/de/marcorel/ServerKlasse.java" />
+        <option value="$PROJECT_DIR$/src/de/marcorel/WebServer.java" />
+        <option value="$PROJECT_DIR$/src/de/marcorel/WebRunnable.java" />
       </list>
     </option>
   </component>
@@ -64,8 +81,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="3" />
+    <option name="x" value="-200" />
+    <option name="y" value="-13" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -77,23 +94,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="3_Simplesockets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3_Simplesockets" type="462c0819:PsiDirectoryNode" />
+              <item name="3_WebServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3_WebServer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="3_Simplesockets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3_Simplesockets" type="462c0819:PsiDirectoryNode" />
+              <item name="3_WebServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3_WebServer" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3_WebServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3_WebServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="3_Simplesockets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3_Simplesockets" type="462c0819:PsiDirectoryNode" />
+              <item name="3_WebServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3_WebServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="marcorel" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -101,6 +121,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -108,7 +130,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marc\Documents\Java Projects\VS-Workspace\Aufgaben\3_WebServer\res" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -122,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientKlasse">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ClientKlasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.marcorel.ClientKlasse" />
       <module name="3_Simplesockets" />
@@ -137,7 +165,7 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="de.marcorel.ServerKlasse" />
+      <option name="MAIN_CLASS_NAME" value="de.marcorel.WebServer" />
       <module name="3_Simplesockets" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -147,8 +175,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientKlasse" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ClientKlasse" />
       </list>
     </recent_temporary>
   </component>
@@ -163,16 +191,16 @@
       <option name="presentableId" value="Default" />
       <updated>1559030570900</updated>
       <workItem from="1559030572118" duration="2761000" />
-      <workItem from="1559041557270" duration="6000" />
-      <workItem from="1559056689269" duration="1057000" />
+      <workItem from="1559041579979" duration="6498000" />
+      <workItem from="1559054430739" duration="423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3824000" />
+    <option name="totallyTimeSpent" value="9682000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="3" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
@@ -206,26 +234,76 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/de/marcorel/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/de/marcorel/ServerKlasse.java">
+    <entry file="file://$PROJECT_DIR$/src/de/marcorel/ClientKlasse.java" />
+    <entry file="file://$PROJECT_DIR$/res/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        <state>
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/marcorel/WebServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/marcorel/ClientKlasse.java">
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="13175">
+          <caret line="834" column="19" selection-start-line="834" selection-start-column="19" selection-end-line="834" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/marcorel/WebRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
