@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c7a6e73-ea34-49ba-aa72-8472d3837e97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/MessageStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Writer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4_SocketsUndThreads/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4_SocketsUndThreads/out/production/4_SocketsUndThreads/de/marcorel/RequestHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/out/production/4_SocketsUndThreads/de/marcorel/RequestHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4_SocketsUndThreads/out/production/4_SocketsUndThreads/de/marcorel/ServerSide.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/out/production/4_SocketsUndThreads/de/marcorel/ServerSide.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/MessageClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/RequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/ServerSide.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4_SocketsUndThreads/src/de/marcorel/ServerSide.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../9_cash_hash/rest-student-template-jdk12" beforeDir="false" afterPath="$PROJECT_DIR$/../9_cash_hash/rest-student-template-jdk12" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/X_Client/ClientClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/X_Client/ClientClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClientClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/src/ClientClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="387">
-              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#241#242#0" expanded="true" />
@@ -101,7 +88,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,7 +105,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,17 +160,18 @@
       <workItem from="1559111288849" duration="2286000" />
       <workItem from="1559114558208" duration="6265000" />
       <workItem from="1559121073944" duration="3584000" />
+      <workItem from="1559125091133" duration="374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12135000" />
+    <option name="totallyTimeSpent" value="12509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2563574" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25979382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -230,10 +218,15 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/util/Reader.java">
+    <entry file="file://$PROJECT_DIR$/src/ClientClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="387">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -244,15 +237,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientClass.java">
+    <entry file="file://$PROJECT_DIR$/src/util/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
