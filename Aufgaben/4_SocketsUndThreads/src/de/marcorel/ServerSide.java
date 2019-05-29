@@ -11,7 +11,7 @@ public class ServerSide {
     private static int port = 1234;
     private static String domain = "172.16.39.77";
     private static final int threadpoolSize = 20;
-
+    private static MessageStore database = new MessageStore();
     public static void main(String[] args) {
 	// write your code here
         runServer();
@@ -27,7 +27,7 @@ public class ServerSide {
                 Socket request = servSo.accept();
                 System.out.println("Client-Request found: " + request.getInetAddress());
                 //Client-Requests handled as Threads via Threadpool.
-                Runnable requestHandler = new RequestHandler(request);
+                Runnable requestHandler = new RequestHandler(request,database);
                 threadpool.execute(requestHandler);
 
                 /*System.out.println("Conneciton Partner found!\n\n");

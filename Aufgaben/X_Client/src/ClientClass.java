@@ -25,10 +25,12 @@ public class ClientClass{
 
             OutputStream out = s.getOutputStream();
             PrintWriter pw = new PrintWriter(out);
-            while (!(response.contains("###Endservice###"))) {
+            while (!response.contains("###Ende###")) {
+
                 response = "";
                 //Print was ausgegeben wird vom Server bis .isEmpty()
                     String tempResponse = "a";
+                    //wichtig, dass der Sender noch eine leere Zeile hinzufügt.
                     while(!tempResponse.isEmpty()) {
                         tempResponse = br.readLine();
                         response += (tempResponse.concat("\n"));
@@ -46,9 +48,8 @@ public class ClientClass{
                     response = "";
                 }
                 loopCounter++;
-
             }
-            System.out.println("durch endservice beendet°!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            //System.out.println("durch endservice beendet°!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         } catch(Exception e){
             System.out.println("exception e");
             e.printStackTrace();
