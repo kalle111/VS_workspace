@@ -17,7 +17,7 @@ public class RequestHandler implements Runnable{
         // implement Thread-handling with Client-Requests
 
         try {
-            System.out.println("Im Client-Request");
+            //System.out.println("Waiting for Client-Request...");
             InputStream in = this.requestSocket.getInputStream();
             BufferedReader br = new BufferedReader(new InputStreamReader(in));
 
@@ -29,18 +29,47 @@ public class RequestHandler implements Runnable{
             /*do {
                 reqList.add(br.readLine());
             } while (!(temp.contains("#Ende#")));*/
-            pw.println("Willkommen zum Server");
-            System.out.printf(">>> geschrieben: Willkommen zum Server -- Chat-Service:\n");
-            pw.println("")
-            pw.flush();
-            reqList.add(br.readLine());
 
-            for(String s : reqList) {
-                if(s != null || s != "") {
-                    System.out.println(s);
+            int loopCount = 0;
+
+            while(loopCount < 10) {
+                if(loopCount == 0) {
+                    pw.println("Welcome to OTH messaging service.");
+                    pw.println("You are sending from " + this.requestSocket.getRemoteSocketAddress().toString());
+                    pw.println("Commands allowed are:");
+                    pw.println("REG###username>");
+                    pw.println("SND###from>###<to>###<text>");
+                    pw.println("RCV###<username>");
+                    pw.println("###Endservice###");
+                    pw.println("Please Enter your response now: ");
+                    pw.println();
+                    pw.flush();
+                    System.out.println("Warte auf User-Eingabe...");
+                    reqList.add(br.readLine());
+                    for(String s : reqList) {
+                        if(!s.isEmpty()) {
+                            System.out.println(s);
+                        }
+                    }
+                    //pw.close();
+                } else {
+                    pw.println("Following Commands are allowed: ");
+                    pw.println("REG###username>");
+                    pw.println("SND###from>###<to>###<text>");
+                    pw.println("RCV###<username>");
+                    pw.println("###Endservice###");
+                    pw.flush();
+                    System.out.println("Warte auf User-Eingabe...");
+                    reqList.add(br.readLine());
+                    for(String s : reqList) {
+                        if(!s.isEmpty()) {
+                            System.out.println(s);
+                        }
+                    }
                 }
-
+                loopCount++;
             }
+            System.out.println("außerhalb while loop");
             // handle incoming Stream data
         } catch (IOException e) {
             e.printStackTrace();
