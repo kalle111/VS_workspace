@@ -8,8 +8,8 @@ import java.util.concurrent.Executors;
 
 public class ServerSide {
 
-    private static int port = 8081;
-    private static String domain = "192.168.178.38";
+    private static int port = 1234;
+    private static String domain = "172.16.39.77";
     private static final int threadpoolSize = 20;
 
     public static void main(String[] args) {
@@ -54,12 +54,13 @@ public class ServerSide {
                 }else {
                     System.out.println(requestString);
                 }*/
-                request.close();
+
             }
 
 
         } catch (IOException e) {
             e.printStackTrace();
         }
+        threadpool.shutdown();
     }
 }

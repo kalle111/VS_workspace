@@ -1,16 +1,15 @@
-package de.marcorel;
+
 
 import java.io.*;
 import java.net.Socket;
 
 public class ClientClass{
 
-    private static final String domain = "127.0.0.1";
-    private static final int port = 8081;
+    private static final String domain = "172.16.39.77";
+    private static final int port = 1234;
 
-    public static void sth(String[] args) {
-        try {
-            Socket s = new Socket(domain,port);
+    public static void main(String[] args) {
+        try (Socket s = new Socket(domain,port)) {
             System.out.println("Connection found!\n");
             InputStream in = s.getInputStream();
             BufferedReader br = new BufferedReader(new InputStreamReader(in));
@@ -22,16 +21,7 @@ public class ClientClass{
             String inbound = "";
             //inbound = br.readLine();
             //System.out.println("Message: " + inbound);
-            while(msgBool) {
-                String temp = br.readLine();
-
-                if(temp.contains("#Ende#")) {
-                    msgBool = false;
-                } else {
-                    inbound += temp + "\n";
-                }
-                //System.out.println("loopend");
-            }
+            inbound = br.readLine();
             System.out.println(inbound);
 
             //pw.println("Nachricht empfangen: " + incomingMsg);
