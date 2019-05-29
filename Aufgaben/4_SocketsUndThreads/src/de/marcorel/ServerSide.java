@@ -3,11 +3,15 @@ package de.marcorel;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class ServerSide {
 
     private static int port = 8081;
     private static String domain = "192.168.178.38";
+    private static final int threadpoolSize = 20;
+
     public static void main(String[] args) {
 	// write your code here
         runServer();
@@ -15,12 +19,18 @@ public class ServerSide {
 
     public static void runServer() {
         System.out.println("Server-Main will be started");
-
+        ExecutorService threadpool = Executors.newFixedThreadPool(threadpoolSize);
         try (ServerSocket servSo = new ServerSocket(port)){
             System.out.println("Socket erstellt - warte nun auf .accept()");
             while(true) {
+                //Incoming Requests will be accepted + handled per Runnable/Thread
                 Socket request = servSo.accept();
-                System.out.println("Conneciton Partner found!\n\n");
+                System.out.println("Client-Request found: " + request.getInetAddress());
+                //Client-Requests handled as Threads via Threadpool.
+                Runnable requestHandler = new RequestHandler(request);
+                threadpool.execute(requestHandler);
+
+                /*System.out.println("Conneciton Partner found!\n\n");
                 InputStream in = request.getInputStream();
                 BufferedReader br = new BufferedReader(new InputStreamReader(in));
 
@@ -37,13 +47,13 @@ public class ServerSide {
 
                 String requestString = "";
 
-                requestString = br.readLine();
+                requestString = br.readLine();*/
 
-                if(requestString.isEmpty()) {
+                /*if(requestString.isEmpty()) {
                     System.out.println("String empty!");
                 }else {
                     System.out.println(requestString);
-                }
+                }*/
                 request.close();
             }
 
