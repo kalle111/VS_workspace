@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b78d5bb-b739-4c48-ab0c-f0577585ab56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../5_Client_FrueherkennungsServer/src/de/marcorel/Client/FrueherkennungsApp_BerichtByReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/BerichtIF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_Client_FrueherkennungsServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5_Client_FrueherkennungsServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5_FrueherkennungsServer_byReference/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5_FrueherkennungsServer_byReference/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/5_FrueherkennungsServer/Client/FrueherkennungsApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/5_FrueherkennungsServer/Client/FrueherkennungsApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/5_FrueherkennungsServer/Entity/Bericht.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/5_FrueherkennungsServer/Entity/Bericht.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/5_FrueherkennungsServer/Entity/Roentgenbild.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/5_FrueherkennungsServer/Entity/Roentgenbild.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/5_FrueherkennungsServer/Entity/RoentgenbildIF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/5_FrueherkennungsServer/Server/FrueerkennungIF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/5_FrueherkennungsServer/Server/FrueerkennungIF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/5_FrueherkennungsServer/Server/FrueherkennungsServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/5_FrueherkennungsServer/Server/FrueherkennungsServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client/FrueherkennungsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/FrueherkennungsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Bericht.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Bericht.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Roentgenbild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Roentgenbild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/RoentgenbildIF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/FrueerkennungIF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/FrueerkennungIF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Server/FrueherkennungsServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/FrueherkennungsServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,87 +33,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Bericht.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Server/FrueerkennungIF.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Client/FrueherkennungsApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Roentgenbild.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1008#1009#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-                <element signature="e#1182#1183#0" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
-                <element signature="e#1290#1291#0" expanded="true" />
-                <element signature="e#1324#1325#0" expanded="true" />
-                <element signature="e#1354#1355#0" expanded="true" />
-                <element signature="e#1400#1401#0" expanded="true" />
-                <element signature="e#1438#1439#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Entity/RoentgenbildIF.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,10 +47,68 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Server/FrueherkennungsServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="31" column="64" lean-forward="true" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+            <state relative-caret-position="289">
+              <caret line="23" column="26" selection-start-line="22" selection-start-column="33" selection-end-line="23" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Client/FrueherkennungsApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/BerichtIF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Roentgenbild.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Bericht.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,11 +131,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Server/Bericht.java" />
-        <option value="$PROJECT_DIR$/src/Entity/Bericht.java" />
-        <option value="$PROJECT_DIR$/src/Server/FrueerkennungIF.java" />
         <option value="$PROJECT_DIR$/src/Entity/Roentgenbild.java" />
-        <option value="$PROJECT_DIR$/src/Entity/RoentgenbildIF.java" />
+        <option value="$PROJECT_DIR$/src/Entity/BerichtIF.java" />
+        <option value="$PROJECT_DIR$/src/Entity/Bericht.java" />
         <option value="$PROJECT_DIR$/src/Server/FrueherkennungsServer.java" />
+        <option value="$PROJECT_DIR$/src/Server/FrueerkennungIF.java" />
         <option value="$PROJECT_DIR$/src/Client/FrueherkennungsApp.java" />
       </list>
     </option>
@@ -157,33 +152,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="5_FrueherkennungsServer_byReference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5_FrueherkennungsServer_byReference" type="462c0819:PsiDirectoryNode" />
+              <item name="5_FrueherkennungsServer_byReference2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_FrueherkennungsServer_byReference2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="5_FrueherkennungsServer_byReference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5_FrueherkennungsServer_byReference" type="462c0819:PsiDirectoryNode" />
+              <item name="5_FrueherkennungsServer_byReference2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_FrueherkennungsServer_byReference2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="5_FrueherkennungsServer_byReference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5_FrueherkennungsServer_byReference" type="462c0819:PsiDirectoryNode" />
+              <item name="5_FrueherkennungsServer_byReference2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_FrueherkennungsServer_byReference2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="5_FrueherkennungsServer_byReference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5_FrueherkennungsServer_byReference" type="462c0819:PsiDirectoryNode" />
+              <item name="5_FrueherkennungsServer_byReference2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_FrueherkennungsServer_byReference2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="5_FrueherkennungsServer_byReference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5_FrueherkennungsServer_byReference" type="462c0819:PsiDirectoryNode" />
+              <item name="5_FrueherkennungsServer_byReference2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_FrueherkennungsServer_byReference2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -192,7 +188,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,7 +195,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../5_FrueherkennungsServer_byReference2_Client" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -257,13 +252,13 @@
       <updated>1559125501137</updated>
       <workItem from="1559125502892" duration="273000" />
       <workItem from="1559289894204" duration="3382000" />
-      <workItem from="1559298322933" duration="1431000" />
-      <workItem from="1559301766717" duration="3630000" />
+      <workItem from="1559298322933" duration="1447000" />
+      <workItem from="1559307923249" duration="3181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8716000" />
+    <option name="totallyTimeSpent" value="8283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -300,17 +295,17 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" />
+      <window_info id="Learn" order="0" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2521322" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3288889" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3288889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -337,47 +332,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Server/FrueerkennungIF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Roentgenbild.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-            <element signature="e#1438#1439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Bericht.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="493">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#402#403#0" expanded="true" />
@@ -388,18 +346,36 @@
             <element signature="e#570#571#0" expanded="true" />
             <element signature="e#618#619#0" expanded="true" />
             <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
             <element signature="e#804#805#0" expanded="true" />
             <element signature="e#860#861#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/FrueherkennungsApp.java">
+    <entry file="file://$PROJECT_DIR$/src/Entity/BerichtIF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Roentgenbild.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/FrueerkennungIF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -408,18 +384,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/FrueherkennungsServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="64" lean-forward="true" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+        <state relative-caret-position="289">
+          <caret line="23" column="26" selection-start-line="22" selection-start-column="33" selection-end-line="23" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/RoentgenbildIF.java">
+    <entry file="file://$PROJECT_DIR$/src/Client/FrueherkennungsApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="289">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
