@@ -20,7 +20,7 @@ public class FrueherkennungsServer implements FrueerkennungIF {
 
         LocateRegistry.createRegistry(1099);
         Registry reg = LocateRegistry.getRegistry("localhost", 1099);
-        reg.bind("FrueherkennungsServerController",stub); //stub unter Namen hochladen.
+        reg.bind("FrueherkennungsService",stub); //stub unter Namen hochladen.
         System.out.printf("Server gestartet, Registry created && gebindet!\nServer listening...");
     }
 

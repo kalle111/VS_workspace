@@ -14,7 +14,7 @@ public class FrueherkennungsApp {
     public static void main(String[] args) throws RemoteException, NotBoundException {
 
         Registry reg = LocateRegistry.getRegistry("localhost", 1099);
-        FrueerkennungIF stub = (FrueerkennungIF)reg.lookup("FrueherkennungsServerController");
+        FrueerkennungIF stub = (FrueerkennungIF)reg.lookup("FrueherkennungsService");
 
         byte[] array = {0,1,0};
         Roentgenbild roentgenb1 = new Roentgenbild(new Date(), "Marc Orel", array);
