@@ -2,6 +2,7 @@ package Server;
 
 import Entity.Bericht;
 import Entity.Roentgenbild;
+import Entity.RoentgenbildIF;
 
 import java.rmi.AlreadyBoundException;
 import java.rmi.RemoteException;
@@ -25,9 +26,11 @@ public class FrueherkennungsServer implements FrueerkennungIF {
     }
 
     @Override
-    public Bericht analysieren(Roentgenbild rb) {
+    public Bericht analysieren(RoentgenbildIF rb) throws RemoteException {
         //so wird die Analyse behandelt
+        System.out.println("Röntgenbild vom: " + rb.getAufnahmeDate1() +" wird nun analysiert!");
         Bericht b = new Bericht("Sprunggelenksbruch", "Kühlen");
         return b;
     }
+
 }
