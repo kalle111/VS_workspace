@@ -15,7 +15,7 @@ public class FrueherkennungsApp_BerichtByReference {
         byte[] array = {0,1,0};
         Entity.Roentgenbild roentgenb1 = new Entity.Roentgenbild(new Date(), "Marc Orel", array);
 
-        BerichtIF b1 = stub.analysieren(roentgenb1);
+        Entity.Bericht b1 = stub.analysieren(roentgenb1);
         System.out.println("Bericht b1 vom " + b1.getDatum() + " liefert folgende Diagnose: " + b1.getDiagnose() + ". Behandelt wir dies wie folgt: " + b1.getWeiteresVorgehen());
     }
 }

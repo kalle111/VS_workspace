@@ -1,4 +1,4 @@
-package de.marcorel.Client;
+package Client;
 
 import Entity.Bericht;
 import Entity.Roentgenbild;
@@ -10,7 +10,7 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.Date;
 
-public class FrueherkennungsAppp {
+public class FrueherkennungsApp {
     public static void main(String[] args) throws RemoteException, NotBoundException {
 
         Registry reg = LocateRegistry.getRegistry("localhost", 1099);
@@ -20,6 +20,5 @@ public class FrueherkennungsAppp {
         Roentgenbild roentgenb1 = new Roentgenbild(new Date(), "Marc Orel", array);
 
         Bericht b1 = stub.analysieren(roentgenb1);
-        System.out.println("Diagnose: " + b1.getDiagnose() + ", weiteres Vorgehen: " + b1.getWeiteresVorgehen() + " (Bericht vom " + b1.getDatum() + ")");
     }
 }

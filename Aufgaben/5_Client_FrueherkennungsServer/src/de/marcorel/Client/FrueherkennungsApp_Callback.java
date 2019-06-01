@@ -10,16 +10,23 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.Date;
 
-public class FrueherkennungsAppp {
+public class FrueherkennungsApp_Callback {
     public static void main(String[] args) throws RemoteException, NotBoundException {
 
         Registry reg = LocateRegistry.getRegistry("localhost", 1099);
-        FrueerkennungIF stub = (FrueerkennungIF)reg.lookup("FrueherkennungsService");
+        Server.FrueerkennungIF stub = (Server.FrueerkennungIF)reg.lookup("FrueherkennungsService");
 
         byte[] array = {0,1,0};
-        Roentgenbild roentgenb1 = new Roentgenbild(new Date(), "Marc Orel", array);
+        Entity.Roentgenbild roentgenb1 = new Entity.Roentgenbild(new Date(), "Marc Orel", array);
 
-        Bericht b1 = stub.analysieren(roentgenb1);
+        Entity.Bericht b1 = stub.analysieren(roentgenb1);
         System.out.println("Diagnose: " + b1.getDiagnose() + ", weiteres Vorgehen: " + b1.getWeiteresVorgehen() + " (Bericht vom " + b1.getDatum() + ")");
     }
+
+    /*public static void setAnalyse(Bericht b) {
+        //returned void also nichts
+
+    }*/
+
+
 }
