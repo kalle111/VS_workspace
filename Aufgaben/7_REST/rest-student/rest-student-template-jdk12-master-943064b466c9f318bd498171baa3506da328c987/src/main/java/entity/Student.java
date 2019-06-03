@@ -4,13 +4,14 @@ import javax.xml.bind.annotation.*;
 import java.util.Objects;
 
 @XmlRootElement
-@XmlAccessorType(XmlAccessType.FIELD)
+@XmlAccessorType(XmlAccessType.PROPERTY)
 public class Student {
 
     @XmlAttribute
     private int matrikelNr;
     private String vorname;
     private String nachname;
+    private Adresse anschrift;
 
     // Default-Konstruktor zwingend notwendig
     public Student() {}
@@ -24,8 +25,16 @@ public class Student {
         this(vorname, nachname);
         this.matrikelNr = matrikelNr;
     }
+    // Ein Konstruktor mit Anschrift-Attribut erweitert
+    public Student(int matrikelNr, String vorname, String nachname, Adresse anschrift) {
+        this(vorname,nachname);
+        this.matrikelNr = matrikelNr;
+        this.anschrift = anschrift;
+    }
 
-
+    public String getAdresse() {
+        return (this.anschrift.toString());
+    }
     public int getMatrikelNr() {
         return matrikelNr;
     }
@@ -50,6 +59,19 @@ public class Student {
         this.nachname = nachname;
     }
 
+    public void setAnschrift(Adresse anschrift) {
+        this.anschrift = anschrift;
+    }
+
+    public Adresse getAnschrift() {
+        return this.anschrift;
+    }
+
+
+    @Override
+    public String toString() {
+        return ("Nachname: " + this.nachname + ", Vorname: " + this.vorname + ", Matrikelnummer: " + this.matrikelNr + ", Anschrift: " + this.anschrift.toString());
+    }
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

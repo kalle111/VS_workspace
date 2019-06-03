@@ -30,5 +30,6 @@ public class Server {
         // Show dialogue in order to prevent premature ending of server(s)
         JOptionPane.showMessageDialog(null, "Stop server...");
         server.stop(0);
+
     }
 }
